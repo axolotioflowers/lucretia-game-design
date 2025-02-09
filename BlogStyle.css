@@ -2,7 +2,7 @@
     padding-inline: 30px;
   }
   .bg{
-    background-image: url('./background.png');
+    background-image: url('./Background.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
