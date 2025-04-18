@@ -2,7 +2,7 @@
     padding-inline: 30px;
   }
   .bg{
-    background-image: url('./Background.png');
+    background-image: url('./bg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -25,6 +25,14 @@ table{
   margin-right: auto;
   margin-bottom: 20px;
   width: 15%;
+}
+.centreImage2{
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 30%;
 }
 .box{
   display: block;
