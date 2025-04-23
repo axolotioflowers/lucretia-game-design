@@ -6,7 +6,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
             <meta name="CS4043" content="width=device-width, initial-scale=1.0">
             <title>Cs4043GroupProject</title>
-            <link href="BlogStyleSheet.css" rel="stylesheet" type="text/css">
+            <link href="blogstyleSheet.css" rel="stylesheet" type="text/css">
             <style>
                 body {
              font-family:  Arial, Helvetica, sans-serif;
@@ -41,7 +41,7 @@
                     design. We have a general sense for the plot that it takes place under the ocean in a cyberpunk future and the main 
                     character is sent down into the ocean to defeat a previously created robot that gained a will of its own(The storywriter
                     Caoimhe could exaplain it much better). We've decide on using Godot as the game engine and our programming team has started
-                    coding some of the elements in the game. Our artwork team has started making designs for the enenmies and main characters.
+                    coding some of the elements in the game. Our artwork team has started making designs for the enemies and main characters.
                     I've made a demo for music that may play during a possible upgrade portion of the game or where the player makes some choice 
                     over elements of their character's abilities.<p>
                         <audio controls>
@@ -143,7 +143,7 @@
                         <source src="LaserDemo1.mov" type="audio/wav">
                     </audio>
                     <p>For the player I made a sound effect of them moving, since the game is in the ocean I tried to make their walking sound as underwater as I could. I 
-                    recorded this by filling my sink with water and turning the drain off, then just recording my hand moving back and forth in the still water. Then in post I added 
+                    recorded this by filling my sink with water and plugging the drain, then just recording my hand moving back and forth in the still water. Then in post I added 
                     effects to make it sound more echo-y and give it some light reverb, I also added a gap in the middle as I felt like the back and forth of the water came too quickly 
                     after each other. Next I made the effect of the player's laser and harpoon attack, they were much easier to make as the laser is just a single note from a keyboard 
                     in GarageBand and the harpoon sound effect is the sound of two knives clashing against each other with some effects on top giving it some reverb and other small stuff.</p>
@@ -168,7 +168,7 @@
                     mind for the door as a mechanical automatic door that hasn't been used in years. I also applied some more effects to the modulation of the audio and copied small sections of 
                     the audio and pasted them at a random place in the middle which made it sound far more mechnical and less like speech. For the jumping into a hole sound effect I took the 
                     second half of the player moving sound effect and applied the analog delay preset "triple refrain" along with some other small effects to it. The idea is that as the player 
-                    jumps down the echo conveys how much they descend as the enter the next level.<p>
+                    jumps down the echo conveys how much they have descended as the enter the next level.<p>
                     <audio controls>
                         <source src="DoorShutterdemo1.wav" type="audio/wav">
                         </audio>
@@ -224,10 +224,10 @@
                     <p>Hi, since the game dev project is due soon this week has been incredibly productive for the team as the pressure settles in to try and get the game as done as possible while realizing
                     that our scope for the game was incredibly ambitious. I'll talk about what I've gotten done since the last entry and what I'm working on currently as I got a lot of progress made but most 
                     of the stuff I did isn't finished yet. Firstly I had to recommit all the stuff I made in GarageBand because for some reason I would save it in a wav format but when I downloaded it to my 
-                    laptop it was a mov file. I didn't even realise this was the case until I committed the files to the github and Mykhailo asked me to recommit them as wav files because godot does not like 
+                    laptop it was a mov file. I didn't even realise this was the case until I committed the files to the github and Mykhailo asked me to recommit them as wav files because Godot does not like 
                     mov files. I also finally after I kept forgetting to do it did the induction for media production labs in the Glucksman library so that I could record stuff in the audio labs. It was honestly 
                     way easier to use than I assumed, the only issue was I had to record stuff on the computer there, save it on a USB stick and then edit it on my laptop with the USB data, I couldn't just plug 
-                    my laptop into the setup. The programming team (most Mykhailo) has been doing a lot of work on the jellyfish enemy so I made some more sound effects for it, I made the sound of it taking 
+                    my laptop into the setup. The programming team (mostly Mykhailo) has been doing a lot of work on the jellyfish enemy so I made some more sound effects for it, I made the sound of it taking 
                     damage, dying and its electric attack since we gave up on its claw attack.</p> 
                     <img src="./electricity.png" class="centreImage2">
                     <audio controls>
@@ -256,11 +256,103 @@
                 </div>
                 <button type ="button" class="collapsible"><h5>22/4/25</h5></button>
                 <div style="background-color: white; display: none;" class="box">
-                    <p>Blog stuff</p>
+                    <p>Hi, this is my last entry detailing my work on the game my next entry will be my reflection on my dev diary as a whole and will have the link to the games itch.io page. So like I mentioned 
+                    in the last entry I recorded a bunch of sound effects with Pedro and some on my own using the audio labs in the Glucksman library, since theres a lot of effects I made I'll do a quick summary 
+                    for all of them. There is also a lot of sound effects I made for things we never implemented into the game if you wonder why I talk about an enemy or weapon we never made, I made all of these 
+                    with the mindset of the game we would make if we had enough time to do everything we planned on.</p>
+                    <img src="./audiologpic.jpg" class="centreImage3">
+                    <audio controls>
+                        <source src="flashlightfxdemo2.wav" type="audio/wav">
+                    </audio> 
+                    <audio controls>
+                        <source src="AudioLogPickup.wav" type="audio/wav">
+                    </audio> 
+                    <audio controls>
+                        <source src="AudioLogTalking.wav" type="audio/wav">
+                    </audio> 
+                    <audio controls>
+                        <source src="ThrowingDaggerPedro.wav" type="audio/wav">
+                    </audio>
+                    <p>For the flashlight fx I re-recorded it and made it a bit more basic so that the sound wouldn't come off as too annoying, I decreased its cents in the pitch shifter to -100 and 
+                    set its flange to a light flange. For the audio log pickup I recoreded Pedro making a "pling" sound and in the middle of the recording his laptop made a beep which incidentally made for a good 
+                    noise for the player sort of downloading the audio log data, I removed background noise, applied a robotic voice analog delay, set the chorus to the preset tiny pebble and set the flanger to the 
+                    preset robotic. For the audio log talking I re-used the downloading sound from the pickup to give it the sense that the player was activating the download, for what Pedro's saying its apparently 
+                    a poem in Latin he found. My hope with the audio log talking sound would be that its like when villagers speak in Animal Crossing how they make sounds that resemble sentences but aren't 
+                    decipherable as actual sentences by the player, the Latin works in the end as that since the effects make it hard to make out the words. I removed the background audio from it, applied the analog 
+                    delay preset robotic voice and robotic preset for the flanger like before as they're both great for robotic sounding stuff, and lastly I copied and pasted a syllable at the end of each section of 
+                    the audio a few times over to make it seem like the recording is repeating itself like how it might when using old tech like VHS tapes. For throwing daggers I got Pedro to say "Hoo" then sped up 
+                    the audio adjusted the chorus to sound more like the sound is in motion and adjusted its flange to a light flange.</p> 
+                    <img src="./kaboompic.jpg" class="centreImage3">
+                    <audio controls>
+                        <source src="PlayerDamagePedro.wav" type="audio/wav">
+                    </audio>
+                    <audio controls>
+                        <source src="PlayerKaboom.wav" type="audio/wav">
+                    </audio>
+                    <audio controls>
+                        <source src="HawkTuaPedro.wav" type="audio/wav">
+                    </audio>
+                    <p>For the player damage I wanted it to sound more elctrical and mechanical since 
+                    its a drone and not a person so I got Pedro to say "Kssh", adjusted the guitar suite to sound like an old tin can telephone and applied a robotic flanger. For the player dying I wanted it to sound 
+                    like an explosion of the drone so I recored Pedro saying "Booooh", I gave it a heavy chorus adjusted the graphic phase shifter by 90 degrees, and gave it the FFT filter of a cassette tape. 
+                    For the harpoon sound I wanted it to have a quick "hooo" of the player throwing the harpoon and then a "kck" of the metal of the harpoon hitting something. I gave it an adjusted light flanger 
+                    used the guitar suite to make it sound more metallic, and used the chorus to give it a more in motion sound like with the throwing daggers. </p>
+                    <img src="./swordfishdeathpic.jpg" class="centreImage3">
+                    <img src="./swordfish.png" class="centreImage">
+                    <audio controls>
+                        <source src="SwordFishDamagePedro.wav" type="audio/wav">
+                    </audio>
+                    <audio controls>
+                        <source src="SwordFishDyingPedro.wav" type="audio/wav">
+                    </audio>
+                    <audio controls>
+                        <source src="SwordFishDashPedro.wav" type="audio/wav">
+                    </audio>
+                    <audio controls>
+                        <source src="swordswishdemo2.wav" type="audio/wav">
+                    </audio>
+                    <p>For the swordfish taking damage sound I recorded Pedro 
+                    saying a "Quuuaaa" for the swordfish screaming in pain from being hit, I gave it -40 semi tones to sound slightly deeper and made the chorus sound more wave-y. For the swordfish dying I recorded 
+                    Pedro saying a "Kerraaaa" sound deflatingly as the swordfish dies, I gave it a -40 semi tones to sound slightly deeper like before and made the chorus much more wave-y to help with the deflating 
+                    effect. For the swordfish's dash attack with its noise I wanted to highlight the sound of the water being pushed aside in the motion of the swordfish dashing, I recorded Pedro saying "Pwssh" and 
+                    increased its semi tones to 3 to give it a higher pitch and also gave it a light flanger. Lastly for the sound of the sword attack I recorded myself saying "Wooosh" and gave ot the pitch shifter 
+                    preset deathly ill to make it sound more heavy, gave it a light flanger and sped up the audio by 120% to sound more quick and action-y.</p>
                 </div>
                 <button type ="button" class="collapsible"><h5>Dev Diary Review</h5></button>
                 <div style="background-color: white; display: none;" class="box">
-                    <p></p>
+                    <p>Hi this is the reflection on my entire dev diary to see what I learned overcame and dealt with in my entries, you can access the game here on itch.io(----).</p>
+                    <h5>What I learned:</h5>
+                    <p>This is my first time working on a game and even really working on audio so I learned a lot in my time on the game, I learned how to use Adobe Audition, GarageBand, and a lot of file formatting 
+                    and technical stuff when it comes to audio files. GarageBand I had some vague familiarity with before we started the project from trying to make music for a DND campaign I ran years ago, I have utterly 
+                    no musical knowledge or experience so in my time composing for the game was very vibes based and not music theory based. I learned how to layer instruments in GarageBand, edit individual instruments, 
+                    and edit specific notes in songs. I ended up mainly making basic scales up and down keyboards in different keyboards and the layering another keyboard with it that sounds nice paired with it. 
+                    I did try and compose actual pieces for a while but I couldn't make anything that sounded that nice and didn't feel as much of a need to with the other songs I made covering the background music.
+                    I had no experience with Adobe Audition before I used it and mainly taught myself how to use it by messing around and experimenting in it, a lot of the stuff I made in it was bad but also taught me 
+                    loads about how to use Audition. By the end of the project I knew what effects I'd need to apply based on what I was trying to do and my learning process on how I got to that point was like I said 
+                    above just messing around until I made something I sort of liked and then editing that effect until it was exactly what I wanted it to sound like. It was easier to do it with some effects compared 
+                    to others, if I knew what I wanted it to sound like and if I did something similar before it was much quicker than something I had no idea with. Because of that some effects took me hours to be 
+                    satisfied with like with the harpoon attack, some that I had more of an idea with could take me half an hour like with all the jellyish sound effects and some I got instantly by the luck of the gods 
+                    and took me 5 minutes like with the electricity sound effect. Adding audio files to github and adding them to my dev diary taught me a lot about how to handle audio files and manipulate them like 
+                    when I learned that using mp3 files instead of wav files is a bad idea as it ruins the quality of the audio.</p>
+                    <h5>Difficulties I overcame:</h5>
+                    <p>Like I mentioned in what I learned I had an issue in quality loss using mp3 files instead of wav files as I couldn't open wav files on mobile and thought it wasn't a huge difference, I only noticed 
+                    when playing back the stuff on my dev diary that it sounded much different than it initially did. Another issue relating to that, that I wasn't able to solve was making my dev diary mobile compatible 
+                    as I was trying to get feedback from my friends on stuff so I edited its HTML code to fit a mobile device and changed the audio to mp3 files so that they could access my dev diary on their phones. But 
+                    after I converted everything back to wav files they were no longer able to play the audio on their phones so I could only get feedback from them in person. Another big issue I had was the lack of direction 
+                    I had, no one was telling what to do which in one way was nice to have the freedom but also was an issue because I had to chase people down and have them tell me what sound effects we might need for 
+                    potential enemies and weapons. And when I did have a list that I made of stuff to do I had no direction on what the sound effects should sound like so I did struggle in points on effects because I had 
+                    no idea what to do with them and almost no help on creating them outside of the recordings I did of my friends for some effects. Because of that some weeks I didn't have a clear idea of what I should try 
+                    and get done.</p>
+                    <h5>Inspirations I had:</h5>
+                    <p>I think I might've mentioned this somewhere above but my main inspiration for the games music sound design came from a podcast called "The Adventure Zone", its a dungeons and dragons podcast that I love 
+                    but in particular it has phenomenal music composed by Griffin Mcelroy. A big reason why this inspired me was because Griffin for the most part self taught himself how to compose music in GarageBand and 
+                    in the process of making the games music it has given me a much bigger appreciation to all that went into the music for that podcast. Another big reason why that podcast inspired me was because it has one 
+                    underwater sci-fi season that perfectly fit the vibe for our game so I used similar keyboards compared to what was used in that season's soundtrack. For the sound design of sound effects two games that I 
+                    took a lot of inspiration from were Nier Automata and Outerwilds, Outerwilds is a mystery based space exploration game to oversimplify it but the sound design for the spaceshape and the items you use in the 
+                    game helped me have an idea of how I wanted things like the flashlight or even how the enemies would sound(especially the jellyfish). Nier Automata is harder to summarise but basically in it you fight a lot 
+                    of robots as enemies while playing as an android and that gave me a much better idea of how anything thats robotic should sound like the player or the audio logs or even the door shutter, it also helped a lot 
+                    with how weapons should sound as the game has a lot of similar weapons in it to the ones we also chose for the game. 
+                    </p>
                 </div>
 
 

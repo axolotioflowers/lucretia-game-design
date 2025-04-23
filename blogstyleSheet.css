@@ -1,0 +1,74 @@
+.th, td{
+    padding-inline: 30px;
+  }
+  .bg{
+    background-image: url('./bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+table{
+  text-align: center;
+}  
+.centre{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 20%;
+}
+.centreImage{
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 15%;
+}
+.centreImage2{
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 30%;
+}
+.centreImage3{
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 50%;
+}
+.box{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 800px;
+  border: 5px solid black;
+  height: auto;
+  padding: 50px;
+  border-radius: 25px;
+}
+.collapsible {
+  cursor: pointer;
+  padding: 15px;
+  padding-left: 50px;
+  width: 1000px;
+  border: 5px solid black;
+  text-align: left;
+  outline: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+}
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
